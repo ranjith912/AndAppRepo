@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Pop-pad</string>
+    <string name="setup_header">Welcome to Pop-pad</string>
+    <string name="setup_text">Settings:</string>
+	<string name="setup_RecName">Title to your recording(optional)</string>
+	<string name="setup_radiobtnHeader">Choose a convenient time interval(in min) to popup your Pop-pad</string>
+	<string name="setup_RecTime1">15</string>
+	<string name="setup_RecTime2">30</string>
+	
+	<string name="setup_RecTime3">45</string>
+	<string name="setup_RecTime4">60</string>
+	<string name="startButton">   Start Pop-pad  </string>
+	<string name="EndButton">   Stop Pop-pad	</string>
+	<string name="title">Title</string>
+    <string name="body">Notes</string>    
+	<string name="no_notes">No Notes Yet</string> 
+	<string name="servicetoggle">Notification</string>   
+	<string name="menu_delete">Delete</string>
+    <string name="menu_insert">Add note</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_revert">Revert</string>
+    <string name="menu_discard">Discard</string>
+	
+    <string name="resolve_edit">Edit note</string>
+    <string name="resolve_title">Edit title</string>  
+	<string name="edit_note">Edit Note</string>
+    <string name="title_create">Create note</string>
+    <string name="title_edit">Edit note</string>
+	<string name="title_notes_list">Note pad</string>   
+	<string name="title_note">Note</string>  
+	<string name="title_edit_title">Note title:</string>  
+	
+	 
+	<string name="live_folder_name">Notes</string>
+	<string name="button_ok">OK</string>  
+	<string name="error_title">Error</string>
+	<string name="error_message">Error loading note</string>
+	<string name="confirm">Save</string>
+	
+</resources>

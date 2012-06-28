@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:layout_x="0dp"
+    android:layout_y="48dp"
+   
+    android:orientation="vertical" >
+<!-- 
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    android:stretchColumns="1">
+    <TableRow>
+        <ImageButton
+	android:id="@+id/homeIconImg"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@color/black"
+	android:src="@drawable/ic_launcher" 
+	
+	/>
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />	
+    </TableRow>
+
+   
+</TableLayout>
+-->
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@color/blue"/>
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_header" 
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_text" 
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@color/blue"/>
+
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_RecName" 
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<EditText
+    android:id="@+id/txtBoxRecName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/textbkgrnd"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:singleLine="true"
+    android:textColor="@color/blue" />
+
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@color/blue"/>
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_radiobtnHeader" 
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+<RadioGroup
+        android:id="@+id/radioTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/radioTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setup_RecTime1" 
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:checked="true" />
+  <RadioButton
+            android:id="@+id/radioTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setup_RecTime2"
+            android:textAppearance="?android:attr/textAppearanceSmall" 
+            android:checked="true" />
+  
+   <RadioButton
+            android:id="@+id/radioTime3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setup_RecTime3" 
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:checked="true" />
+   
+    <RadioButton
+            android:id="@+id/radioTime4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setup_RecTime4"
+            android:textAppearance="?android:attr/textAppearanceSmall" 
+            android:checked="true" />
+        
+ 
+    </RadioGroup>
+ 
+   
+
+
+
+
+
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@color/blue"/>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/startButton" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:text="@string/EndButton" />
+</LinearLayout>
+	
+</LinearLayout>
